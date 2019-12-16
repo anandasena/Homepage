@@ -1,0 +1,191 @@
+html *{
+     font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    background-color: #C0C0C0
+}
+
+main{
+    color:#000000;
+}
+
+.tm-homepage{
+    text-align:center;
+    max-width: 1200px;
+}
+
+
+
+.tm-container{
+    max-width: 1200px;
+}
+
+
+.circle-image{
+    border-radius: 50%;
+    float: left;
+}
+
+.tm-nav{
+    float: right;
+}
+
+.tm-nav ul li{
+    display: inline-block;
+}
+
+.tm-header::after{
+    content: " ";
+    clear: both;
+    display: block;
+}
+
+.tm-nav ul li a{
+    padding: 30px 20px;
+    text-decoration: none;
+    font-size: 30px;
+    line-height: 100px;
+    color:#191970;
+}
+
+.tm-footer{
+    text-align: center;
+    color:#000000;
+    display:block;
+    clear:both;
+    max-width: 1200px;
+}
+
+.tm-nav ul li a:hover{
+    color: red;
+}
+
+.tm-nav ul li a:active{
+    color: orange;
+}
+
+.tm-section{
+    text-align: center;
+    color: #000000;
+    display:block;
+    float: left;
+    width: 80%;
+
+}
+
+.sidebar{
+    padding-left: 50px;
+    float: right;
+    display: block;
+    width: 20%;
+}
+
+.tm-aside ul li a{
+    color:#191970;
+}
+
+.tm-aside ul li a:hover{
+    color: red;
+}
+
+.tm-aside ul li a:active{
+    color: orange;
+}
+
+.tm-article{
+    background-color: #D3D3D3;
+    padding-bottom:20px;
+    float:right;
+}
+
+.title{
+    text-align: center;
+    clear:both;
+    margin-bottom: 10px;
+}
+
+.tm-text{
+    float: right;
+    display:block;
+}
+
+.tm-about{
+    text-align: center;
+    margin-right: 50px;
+    margin-left: 50px;
+    background-color: #D3D3D3;
+}
+
+.textarea{
+    height:500px;
+    width:525px;
+}
+
+.service-bg{
+    height:200px;
+    position: relative;
+}
+
+.service-bg-1{
+    background-image: url('opticians.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.service-bg-2{
+    background-image: url('developer.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.service-text{
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.service-bg-3{
+    background-image: url('piano.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.section-header{
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.service-bg h3{
+    color: #fff;
+    background:#000;
+    width:84%;
+    margin: 30px;
+    border-radius:50px;
+    text-align: center;
+}
+
+.country{
+    text-align: center;
+}
+
+.image{
+    float: left;
+    width: 25%;
+    display: block;
+    padding-left: 50px;
+}
+
+.text{
+    float: right;
+    width: 75%;
+    display: block;
+}
+
+.country{
+    clear: both;
+}
+
+.responsive{
+    width: 100%;
+    height: auto;
+}
